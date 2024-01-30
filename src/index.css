@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --black: #1c1c1c;
+    --white: #f1f1f1;
+}
+
+body {
+    background-color: var(--black);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: var(--white);
+    font-family: 'M PLUS 1 Code', monospace;
+}
+
+
+.card {
+    max-width: 250px;
+    padding: 1%;
+    margin: 0.5%;
+
+    border: 1px solid hsla(0, 0%, 1%, 0.099);
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 100%, 0.1);
+    
+    text-align: center;
+    display: inline-block;
+
+    .card-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5%;
+
+        border-radius: 25%;
+    }
+
+    .card-title {
+
+
+    }
+    
+    .card-text {
+
+    }
+}
