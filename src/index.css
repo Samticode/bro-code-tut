@@ -4,12 +4,12 @@
     --black: #1c1c1c;
     --white: #f1f1f1;
 
-    --greeen: #434A42;
+    --green: #434A42;
     --yellow: #E1CA96;
 }
 
 body {
-    background-color: var(--yellow);
+    background-color: var(--green);
 }
 
 p, h1, h2, h3, h4, h5, h6 {
